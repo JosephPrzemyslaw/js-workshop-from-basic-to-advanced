@@ -1,38 +1,38 @@
-# Task 1
+# Zadanie 1
 
 ## `Number`
-### **Description**
-- perform simple mathematical operations (+, -, *, **, %, /)
-- create a number outside the allowed range
-- check if 0.1 + 0.2 = 0.3, justify your opinion
-- chceck what happens when you add 2 to the maximum safe natural number
-- what is the result of division by zero
+### **Opis**
+- wykonaj proste operacje matematyczne (+, -, *, **, %, /)
+- wyświetl maksymalną bezpieczną liczbę naturalną (`Number.MAX_SAFE_INTEGER`)
+- sprawdź co się dzieje kiedy dodajesz do niej 2 
+- stwórz liczbę poza dopuszczalnym zakresem (`Number.MAX_VALUE`)
+- sprawdź czy 0.1 + 0.2 = 0.3, uzasadnij
+- co jest wynikiem dzielenia przez zero ?
 <br/>
 <br/>
 <br/>
 
-# Task 2
+# Zadanie 2
 ## `String`
-### **Description**
+### **Opis**
 
-- join different strings
-- add a number to a string
-- this time, subtract or multiply a number by a text
-- check the behavior of `typeof`
+- połącz różne ciągi znaków
+    - skorzystaj z operatora `+`
+    - użyk backtick `...`
+- co się dzieje kiedy dodajesz liczbę do tekstu
+- tym razem odejmij / pomnóż liczbę przez tekst
+- sprawdź zachowanie`typeof`
 <br/>
 <br/>
 <br/>
 
-# Task 3
+# Zadanie 3
 ## `Object`
-### **Description**
+### **Opis**
 ![](../images/data-types/object.png)
 
-Look at the object given above and answer the following questions
-
-
-1. Display information about an engine and a segment in the console
-2. Which references to the `mobile` field are corrrect ?
+1. Wyświetl w konsoli informacje na temat pojemności silnika oraz typie segmentu auta
+2. Które odniesienia do pola `mobile` są poprawne?
 - `car1.mobile`
 - `car1.phone.mobile`
 - `car1.engine.sellerInfo.phone.mobile`
@@ -40,6 +40,8 @@ Look at the object given above and answer the following questions
 <br/>
 <br/>
 <br/>
-# Task 4
-### **Guess a data type**
+
+# Zadanie 4
+## Opis
+Jaki jest typ danych poniższych wartości
 ![alt text](../images/data-types/typeOf.png)
