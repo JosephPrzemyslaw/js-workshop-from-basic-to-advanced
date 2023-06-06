@@ -4,11 +4,11 @@
 ### **Opis**
 - wykonaj proste operacje matematyczne (+, -, *, **, %, /)
 - wyświetl maksymalną bezpieczną liczbę naturalną (`Number.MAX_SAFE_INTEGER`)
-- sprawdź co się dzieje kiedy dodajesz do niej 2 
+- sprawdź co się dzieje kiedy dodajesz do niej 2
+- jak możesz obejść powyższy problem ?
 - stwórz liczbę poza dopuszczalnym zakresem (`Number.MAX_VALUE`)
 - sprawdź czy 0.1 + 0.2 = 0.3, uzasadnij
 - co jest wynikiem dzielenia przez zero ?
-<br/>
 <br/>
 <br/>
 
@@ -21,9 +21,8 @@
     - użyk backtick `...`
 - co się dzieje kiedy dodajesz liczbę do tekstu
 - tym razem odejmij / pomnóż liczbę przez tekst
-- do czego służą globalne funkcje `parseFloat` oraz `parseInt` ?
+- do czego służą globalne funkcję `parseFloat` oraz `parseInt` ?
 - sprawdź zachowanie`typeof`
-<br/>
 <br/>
 <br/>
 
@@ -38,7 +37,6 @@
 - `car1.phone.mobile`
 - `car1.engine.sellerInfo.phone.mobile`
 - `car1.sellerInfo.phone.mobile`
-<br/>
 <br/>
 <br/>
 

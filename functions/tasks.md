@@ -1,6 +1,6 @@
 # Zadanie 1
 ## Opis
-Napisz funkcje, która loguje do konsoli informacje czy wszystkie trzy przesłane parametry są parzyste
+Napisz funkcję, która loguje do konsoli informacje czy wszystkie trzy przesłane parametry są parzyste
 
 ## JSDoc
 ```javascript
@@ -27,7 +27,7 @@ console.log(areEven(e, f, g)); // false
 
 # Zadanie 2
 ## Opis
-Zaimplementuj funkcje, która symuluje rzut monetą, zwraca orzeł / reszka
+Zaimplementuj funkcję, która symuluje rzut monetą, zwraca orzeł / reszka
 
 ```javascript
 /**
