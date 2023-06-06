@@ -21,6 +21,7 @@
     - użyk backtick `...`
 - co się dzieje kiedy dodajesz liczbę do tekstu
 - tym razem odejmij / pomnóż liczbę przez tekst
+- do czego służą globalne funkcje `parseFloat` oraz `parseInt` ?
 - sprawdź zachowanie`typeof`
 <br/>
 <br/>
