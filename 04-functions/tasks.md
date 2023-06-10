@@ -1,6 +1,6 @@
 # Zadanie 1
 ## Opis
-Napisz funkcję, która loguje do konsoli informacje czy wszystkie trzy przesłane parametry są parzyste
+Napisz funkcje, która loguje do konsoli informacje czy wszystkie trzy przesłane parametry są parzyste
 
 ## JSDoc
 ```javascript
@@ -27,7 +27,10 @@ console.log(areEven(e, f, g)); // false
 
 # Zadanie 2
 ## Opis
-Zaimplementuj funkcję, która symuluje rzut monetą, zwraca orzeł / reszka
+
+**a)**
+
+Zaimplementuj funkcje, która symuluje rzut monetą, zwraca orzeł / reszka
 
 ```javascript
 /**
@@ -48,6 +51,13 @@ console.log(getHeadOrTail()); // "tail"
 console.log(getHeadOrTail()); // "tail"
 console.log(getHeadOrTail()); // "head"
 ```
+
+**b)**
+Zbadaj jak często pada orzeł i reszka w zależności od liczby rzutów
+
+<br>
+
+
 # Zadanie 3
 ## Opis
 Npisz funkcję, która pobiera trzy współczynniki `a`, `b`, `c` i zwraca pierwiastki paraboli
@@ -117,6 +127,7 @@ function getCircleArea(radious) {
 
 const area = getCircleArea(10.5);
 // console.log(PI);
+
 ```
 **b)**
 ```javascript
@@ -140,8 +151,8 @@ function getTriangleArea(a, h) {
 
     return area;
 }
+
 // console.log(area);
 const area = getTriangleArea(10.5);
 // console.log(area);
 ```
-
