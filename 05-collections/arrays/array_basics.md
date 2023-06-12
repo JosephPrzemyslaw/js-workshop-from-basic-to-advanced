@@ -72,15 +72,15 @@ Wynika ma być sformatowany wg schematu:
 Tablica wejściowa:
 ```javascript
 const students = [{
-   name: "Sabina", points: 59,
+   name: 'Sabina', points: 59,
 },{
-   name: "Paulina", points: 69,
+   name: 'Paulina', points: 69,
 },{
-   name: "Marry", points: 75,
+   name: 'Marry', points: 75,
 },{
-   name: "Grazyna", points: 81,
+   name: 'Grazyna', points: 81,
 },{
-   name: "Chris", points: 91,
+   name: 'Chris', points: 91,
 },];
 ```
 ## Oczekiwany wynik
@@ -121,10 +121,10 @@ I am <imie>, <wiek> years old, I am <rodzajnik> <wiek>
 Tablica osób ma postać:
 ```javascript
 const people = [{
-   name: "Joseph", age: 42, occupation: "Trainer",
-   name: "John", age: 32, occupation: "Programmer",
-   name: "Steph", age: 40, occupation: "English Teacher",
-   name: "Anny", age: 35, occupation: "German Teacher",
+   name: 'Joseph', age: 42, occupation: 'Trainer',
+   name: 'John', age: 32, occupation: 'Programmer',
+   name: 'Steph', age: 40, occupation: 'English Teacher',
+   name: 'Anny', age: 35, occupation: 'German Teacher',
 }]
 ```
 ## Oczekiwany output

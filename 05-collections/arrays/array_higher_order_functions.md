@@ -9,9 +9,9 @@ window.open(URL, '_blank', 'noopener, noreferrer');
 Tablica z linkami:
 ```javascript
 const links = [
-    {url: "http://www.google.pl",}
-    {url: "http://www.stackoverflow.com",}
-    {url: "http://www.medium.com",}
+    {url: 'http://www.google.pl',}
+    {url: 'http://www.stackoverflow.com',}
+    {url: 'http://www.medium.com',}
 ];
 ```
 # Zadanie
