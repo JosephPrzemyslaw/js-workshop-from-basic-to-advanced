@@ -57,6 +57,28 @@ const numArray = [10, -10, 3.14, NaN, Infinitive];
 
 # Zadanie
 ## Opis
+Wykonaj kopie tablic korzystając z operatora `spread`. Jakie problemy zauważasz ?
+
+```javascript
+const regularArr = [10, Infinity, 'test', null, undefined, 3.14, ''];
+const complexArr = [{}, {age:40}, 'test', 'some sentence', [1, 2, 3, 4, 5]];
+```
+
+<br/>
+
+# Zadanie
+## Opis
+Połącz kilka tablic w jedną
+```javascript
+const regularArr = [10, Infinity, 'test', null, undefined, 3.14, ''];
+const complexArr = [{}, {age:40}, 'test', 'some sentence', [1, 2, 3, 4, 5]];
+const onlyNums = [-10, -20, -30];
+const onlyStrings = ['a', 'b', 'c', 'd'];
+```
+<br>
+
+# Zadanie
+## Opis
 Korzytając z pętli `for` wydrukuj ocenę z egzaminu biorąc pod uwagę następujące kryteria:
 ```
 <90-100> 5

@@ -4,15 +4,15 @@
 Pozbądź się wewnętrznej instrukcji warunkowej `if-else` korzystając z `ternary operator`
 
 ```javascript
-const x = parseFloat(prompt("x="));
+const x = parseFloat(prompt('x='));
 if (x < 0) {
-    console.log("Negative value");
+    console.log('Negative value');
 } else {
-    console.log("Positive value");
+    console.log('Positive value');
     if (x % 2 === 0) {
-        console.log("Is even");
+        console.log('Is even');
     } else {
-        console.log("Is odd");
+        console.log('Is odd');
     }
 }
 ```
@@ -23,14 +23,14 @@ if (x < 0) {
 Pozbądź się `if-else` korzystając z `ternary operator`
 
 ```javascript
-const a = parseFloat(prompt("a= "));
-const b = parseFloat(prompt("b= "));
-const c = parseFloat(prompt("c= "));
+const a = parseFloat(prompt('a= '));
+const b = parseFloat(prompt('b= '));
+const c = parseFloat(prompt('c= '));
 
 if (a > b && b > c) {
-    console.log("yes");
+    console.log('yes');
 } else {
-    console.log("no");
+    console.log('no');
 }
 ```
 <br/>

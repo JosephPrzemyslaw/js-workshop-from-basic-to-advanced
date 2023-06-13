@@ -41,16 +41,16 @@ output: 517,89
 Zamień poniższy kod na odpowiadający przy użyciu switch
 
 ```javascript
-if (text === "start") {
-    result = "S";
+if (text === 'start') {
+    result = 'S';
 } else {
-    if (text === "not ready" || text === "broken") {
-        result = "NR";
+    if (text === 'not ready' || text === 'broken') {
+        result = 'NR';
     } else {
-        if (text === "about to start") {
-            result = "ATS";
-        } else if (text === "working") {
-            result = "W";
+        if (text === 'about to start') {
+            result = 'ATS';
+        } else if (text === 'working') {
+            result = 'W';
         }
     }
 }

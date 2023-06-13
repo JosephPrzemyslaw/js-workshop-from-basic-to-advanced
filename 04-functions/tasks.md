@@ -37,7 +37,7 @@ Zaimplementuj funkcje, która symuluje rzut monetą, zwraca orzeł / reszka
  * Losowy rzut monetą, bezparametrowa
  * Funkcja losuje równomiernie, z jednakowym rozkładem prawdopodobieństwa
  * 
- * @return {string} "head" lub "tail"
+ * @return {string} 'head' lub 'tail'
  */
 function getHeadOrTail() {
     //...
@@ -46,10 +46,10 @@ function getHeadOrTail() {
 
 ## Przykłady
 ```javascript
-console.log(getHeadOrTail()); // "head"
-console.log(getHeadOrTail()); // "tail"
-console.log(getHeadOrTail()); // "tail"
-console.log(getHeadOrTail()); // "head"
+console.log(getHeadOrTail()); // 'head'
+console.log(getHeadOrTail()); // 'tail'
+console.log(getHeadOrTail()); // 'tail'
+console.log(getHeadOrTail()); // 'head'
 ```
 
 **b)**
