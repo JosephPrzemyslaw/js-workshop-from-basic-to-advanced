@@ -78,8 +78,8 @@ Odpowiadająca deklaracja `CSS` mas postać `filter: blur(5px);`
 
 ## Przykład
 <div style="display:flex">
-    <img src="./oryg.png" width="300">
-    <img src="./blurred.png" width="300">
+    <img src="../images/iterators/oryg.png" width="300">
+    <img src="../images/iterators/blurred.png" width="300">
 </div>
 <br>
 
