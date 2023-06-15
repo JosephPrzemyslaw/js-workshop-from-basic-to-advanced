@@ -1,3 +1,7 @@
+# ITERATORY
+
+<br>
+
 # Zadanie
 ## Opis
 Sprawdź działanie wbudowanych iteratorów dla obiektów `String`, `Array`, `Map` oraz `Set` korzystając:
@@ -235,3 +239,73 @@ tworzy tablicę:
 ```
 [2, 6, 10, 14]
 ```
+
+<br>
+
+# Zadanie
+## Opis
+Zaimplemetuj iterację po `kolejce FIFO` korzystając z iteratorów. Elementy są wyświetlane w odwrotnej kolejności ich wstawienie do tablicy
+
+# Działanie
+```javascript
+let myStack = [];
+myStack.push(123);
+myStack.push(90);
+myStack.push("sth");
+
+for(let el of myStack) {
+    console.log(el);
+}
+```
+drukuje:
+```
+123
+90
+sth
+```
+
+<br>
+
+# GENERATORY
+
+<br>
+
+# Zadanie
+## Opis
+Porównaj i wyjaśnij implementacje kodu, który drukuje tekst wspak
+
+```javascript
+const testStr = "A fast brown fox";
+testStr[Symbol.iterator] = function () {
+    let counter = this.length;
+    let that = this;
+
+    return {
+        next() {
+            return {
+                value: that[--counter],
+                done: counter < 0,
+            };
+        },
+    };
+}
+```
+przy użyciu generatorów:
+```javascript
+testStr[Symbol.iterator] = function *() {
+    for (let i = this.length - 1; i >=0; i--) {
+        yield this[i];
+    }
+}
+```
+
+<br>
+
+# Zadanie
+## Opis
+Zaimplementuj rozwiązania następujących problemów wykorzystując generatory. Możesz posłużyć się kodem dla  iteratorów
+
+- Generowanie Ciągu Fibonacciego
+- Listowanie słów z tekstu
+- Implementacja zakresu
+- Iteracja po kolejce LIFO
