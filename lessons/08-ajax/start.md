@@ -3,7 +3,7 @@
 ## Opis
 Napisz aplikację, która wyświetla informacje o nazwie użytkowników. Imię oraz nazwisko pobierane są z serwisu `https://random-data-api.com/`a avatar z `http://ui-avatars.com/`
 
-Skorzytaj z `fetch`
+Skorzystaj z `fetch`
 
 <br>
 
@@ -40,9 +40,9 @@ Usuń `fetch` i zastąp go biblioteką `axios`
 
 # Zadanie
 ## Opis
-Użytkownik w polu teksotwym podaje miasto. Aplikacja wyświetla pogodę po wciśnięciu guzika `Enter`
+Użytkownik w polu tekstowym podaje miasto. Aplikacja wyświetla pogodę po wciśnięciu guzika `Enter`
 
-Sokrzystaj z serwisu `https://openweathermap.org`
+Skorzystaj z serwisu `https://openweathermap.org`
 
 
 <img src="../images/ajax/example.png" width="400">

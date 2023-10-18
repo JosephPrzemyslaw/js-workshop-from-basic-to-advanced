@@ -1,8 +1,7 @@
-# Zadanie 1
+# Zadanie
 ## Opis
-Napisz funkcje, która loguje do konsoli informacje czy wszystkie trzy przesłane parametry są parzyste
+Napisz funkcję, która loguje do konsoli informacje czy wszystkie trzy przesłane parametry są parzyste
 
-## JSDoc
 ```javascript
 /**
  * Sprawdza czy przesłane liczby są parzyste
@@ -25,17 +24,42 @@ const e = 9, f = 10, g = 20
 console.log(areEven(e, f, g)); // false
 ```
 
-# Zadanie 2
+# Zadanie
+## Opis
+Napisz funkcję, która konwertuje temperaturę w stopniach Celsiusza na skalę Fahrenheita
+
+```
+farhenheit = 32 +  9/5 * celsius
+```
+
+```js
+/**
+ * Konwertuje temperaturę podaną w Celsiuszach na Fahrenheity
+ * 
+ * @param {number} temp - temperatura w stopniach Celsiusza
+ * @return {number} - temperatura w Fahrenheitach
+ *
+ **/
+function convertTemp(temp) {
+    //...
+}
+```
+## Zastosowanie
+```js
+const fahrenTemp1 = convertTemp(30);
+const fahrenTemp2 = convertTemp(-20);
+```
+
+# Zadanie
 ## Opis
 
 **a)**
 
-Zaimplementuj funkcje, która symuluje rzut monetą, zwraca orzeł / reszka
+Zaimplementuj funkcję, która symuluje rzut monetą, zwraca orzeł / reszka
 
 ```javascript
 /**
- * Losowy rzut monetą, bezparametrowa
- * Funkcja losuje równomiernie, z jednakowym rozkładem prawdopodobieństwa
+ * Symuluje losowy rzut monetą. Funkcja losuje równomiernie, z jednakowym rozkładem prawdopodobieństwa
  * 
  * @return {string} 'head' lub 'tail'
  */
@@ -58,12 +82,12 @@ Zbadaj jak często pada orzeł i reszka w zależności od liczby rzutów
 <br>
 
 
-# Zadanie 3
+# Zadanie
 ## Opis
-Npisz funkcję, która pobiera trzy współczynniki `a`, `b`, `c` i zwraca pierwiastki paraboli
+Napisz funkcję, która pobiera trzy współczynniki `a`, `b`, `c` i zwraca pierwiastki paraboli
 ```javascript
 /**
- * Liczy pierwiaski paraboli danej wzorem
+ * Liczy pierwiastki paraboli danej wzorem
  * y = ax^2 + bx + c
  * 
  * @param {number} a - pierwszy pierwiastek
@@ -84,7 +108,7 @@ const solution2 = getRoots(1, -2, 1);   // [1]
 const solution3 = getRoots(10, 0.5, 1); // []
 ```
 
-# Zadanie 4
+# Zadanie
 ## Opis
 Zaimplementuj funkcję, która zwraca losową liczbę z określonego zakresu. Jeżeli żaden parametr nie zostanie przesłany, załóż `min = 0`, `max = 100`
 
@@ -94,7 +118,7 @@ Zaimplementuj funkcję, która zwraca losową liczbę z określonego zakresu. Je
  * min = 0, max = 100 gdy parametry nie zostaną przesłane
  * 
  * @param {number} min - wartość minimalna
- * @param {number} max - wartość maskymalna
+ * @param {number} max - wartość maksymalna
  * @return {number} - liczba z przedziału <min, max>
  */
 function getRandom(min, max) {
@@ -109,17 +133,17 @@ const rand1 = getRandom(5, 10); // 7
 const rand2 = getRandom(); // 54
 ```
 
-# Zadanie 5
+# Zadanie
 ## Opis
 Co zostałoby wyświetlone w konsoli gdyby poniższy kod został odkomentowany ?
 
 **a)**
 ```javascript
 // console.log(PI);
-function getCircleArea(radious) {
+function getCircleArea(radius) {
     // console.log(PI);
     const PI = 3.14;
-    const area = PI * radious * radious;
+    const area = PI * radius * radius;
 
     // console.log(PI);
     return area;
@@ -132,10 +156,10 @@ const area = getCircleArea(10.5);
 **b)**
 ```javascript
 // console.log(PI);
-function getCircleArea(radious) {
+function getCircleArea(radius) {
     // console.log(PI);
     var PI = 3.14;
-    const area = PI * radious * radious;
+    const area = PI * radius * radius;
 
     // console.log(PI);
     return area;

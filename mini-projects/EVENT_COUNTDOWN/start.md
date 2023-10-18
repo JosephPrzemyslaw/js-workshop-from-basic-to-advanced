@@ -27,5 +27,5 @@ Zaimplementuj timer pokazujący liczbę dni, godzin, minut i sekund do rozpoczę
 + Chrome
 + in VSC
 
-# Additionals
+# Dodatki
 + Stylowanie (chrome)

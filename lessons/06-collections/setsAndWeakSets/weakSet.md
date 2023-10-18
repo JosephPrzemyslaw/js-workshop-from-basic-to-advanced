@@ -66,9 +66,6 @@ let computer = {
 areUniqueFields(computer); // false - company występuje dwukrotnie
 ```
 
-
-
-
 <br>
 
 # Zadanie (*)

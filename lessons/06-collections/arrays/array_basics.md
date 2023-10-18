@@ -1,3 +1,21 @@
+# Zadanie
+## Opis
+Napisz funkcję, która sumuje elementy tablicy a wynik loguje do konsoli.
+
+**a)**
+sumuje wszystkie liczby.
+
+**b)**
+tylko elementy o wartościach mniejszych od zera.
+
+<br>
+
+# Zadanie
+## Opis
+
+Zapisz do tablicy "k" pierwszych liczb parzystych (rozpoczynając od zera) korzystając z pętli.
+
+<br>
 
 # Zadanie 
 ## Opis
@@ -79,7 +97,7 @@ const onlyStrings = ['a', 'b', 'c', 'd'];
 
 # Zadanie
 ## Opis
-Korzytając z pętli `for` wydrukuj ocenę z egzaminu biorąc pod uwagę następujące kryteria:
+Korzystając z pętli `for` wydrukuj ocenę z egzaminu biorąc pod uwagę następujące kryteria:
 ```
 <90-100> 5
 <80-89>  4
@@ -127,7 +145,7 @@ Sabina:  1
 
 # Zadanie
 ## Opis
-Korzsytając z pętli `for` wydrukuj osoby wg schematu
+Korzystając z pętli `for` wydrukuj osoby wg schematu
 
 **a)** 
 ```
@@ -208,7 +226,7 @@ Napisz własną implementację `pop` oraz `push`.
     //...
  }
 ```
-**b)** Rozszerz implementację o dodawawnie wielu wartości. Skorzystaj z operatora `rest`
+**b)** Rozszerz implementację o dodawanie wielu wartości. Skorzystaj z operatora `rest`
 ```javascript
 /**
  * Dodaje elementy na koniec tablicy 
@@ -279,3 +297,51 @@ Znajdź pierwszy i drugi indeks wystąpienia gruszki korzystając z  `Array.prot
 
 <br/>
 
+# Zadanie
+## Opis
+Napisz funkcję odwracającą string
+
+```js
+/**
+ * Odwraca ciąg znaków
+ * 
+ * @param {string} txt - dane źródłowe
+ * @return {string} - odwrócony ciąg znaków
+ */
+function reverse(txt) {
+   //...
+}
+```
+
+## Zastosowanie
+```js
+
+const revStr1 = reverse("alpha"); // ahpla
+const revStr2 = reverse("a b"); // b a
+const revStr3 = reverse(""); //
+```
+
+<br>
+
+# Zadanie
+## Opis
+Zaimplementuj funkcję która sprawdza czy przesłany tekst jest palindromem
+
+```js
+/**
+ * Sprawdza czy tekst jest palindromem
+ * 
+ * @param {string} txt - dane źródłowe
+ * @return {boolean} - true gdy jest palindromem, false w przeciwnym razie
+ */
+function isPalindrom(str) {
+   //...
+}
+```
+
+## Zastosowanie
+```js
+
+const out1 = isPalindrom("radar"); // true
+const out2 = isPalindrom("zebra"); // false
+```

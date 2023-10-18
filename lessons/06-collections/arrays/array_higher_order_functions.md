@@ -1,7 +1,7 @@
 # Zadanie
 ## Opis
 
-Na podstawie tablicy linków napisz kod, który otworzy automatycznie w przeglądarce nowe karty z podanymi adresami internetowymi (uzyj `forEach`). Wynik sprawdź w Firefoxie. Aby otworzyć nowe okno użyj:
+Na podstawie tablicy linków napisz kod, który otworzy automatycznie w przeglądarce nowe karty z podanymi adresami internetowymi (uzyj `forEach`). Wynik sprawdź w przeglądarce `Firefox`. Aby otworzyć nowe okno użyj:
 ```javascript
 window.open(URL, '_blank', 'noopener, noreferrer');
 ```
@@ -108,9 +108,9 @@ const cars = [{
 
 # Zadanie
 ## Opis
-Korzystając z `Array.protototype.filter` przefiltruj `items` tak aby nowo utworzona tablica zawierała tylko wartości liczbowe
+Korzystając z `Array.prototype.filter` przefiltruj `items` tak aby nowo utworzona tablica zawierała tylko wartości liczbowe
 ```javascript
-const items = ['pinapple', 56, 'apple', 12.9, 'water', 1, 0];
+const items = ['pineapple', 56, 'apple', 12.9, 'water', 1, 0];
 ```
 <br>
 
@@ -118,7 +118,7 @@ const items = ['pinapple', 56, 'apple', 12.9, 'water', 1, 0];
 ## Opis
 Korzystając z `Array.prototype.filter`
 
-**a)** Odfiltruj elementy dla których wiek osoby jest jednocześenie > 40 i < 20
+**a)** Odfiltruj elementy dla których wiek osoby jest jednocześnie > 40 i < 20
 
 **b)** Pozostaw tylko te obiekty, których pole name rozpoczyna się od „A”, „B” lub „C”
 
@@ -204,7 +204,7 @@ const areasAndPerims = [{
 # Zadanie
 ## Opis
 
-Stwórz tablicę stu elementów, których każdy reprezentuje losową liczbę (`min = 0`, `max = 1000`). Skrzystaj z `Array.prototype.map`. Spróbuj stworzyć onelinera.
+Stwórz tablicę stu elementów, których każdy reprezentuje losową liczbę (`min = 0`, `max = 1000`). Skorzystaj z `Array.prototype.map`. Spróbuj stworzyć onelinera.
 
 ## Podpowiedź
 ```javascript

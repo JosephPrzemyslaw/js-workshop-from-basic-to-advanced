@@ -1,6 +1,7 @@
 # Zadanie
 ## Opis
 Zaimplementuj skrypt, który doda obramowanie wokół listy a pierwszemu i ostatniemu elementowi przypisze kolor niebieski. Mozesz skorzystac z podpowiedzi poniżej:
+
 ```javascript
 /*...*/=document.getElementById('fruit-list');
 ulEl.style.border = '3px solid black';
@@ -86,7 +87,7 @@ Wyciągnij elementy listy (patrz kod HTML z poprzedniego zadania) używając `qu
 
 Usuń śliwkę z poziomu `Developer tools`. Ewentualnie możesz posłużyć się:
 ```javascript
-docuemnt.getElementById('plum').remove();
+document.getElementById('plum').remove();
 ```
 Uruchom `printContent` by wyświetlić elementy kolekcji. Jakie różnice zauważasz ?
 

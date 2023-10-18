@@ -1,7 +1,7 @@
-# Zadanie 1
+# Zadanie
 ## Opis
 
-Pobierz liczbę (`prompt`, `parseFloat`) i wyświetl wiadomość czy jest ujemna lub dodatnia. W przypadku tej drugiej, policz jej kwadrat oraz sprawdź parzystość
+Pobierz liczbę (`prompt`, `parseFloat`) i wyświetl informację czy jest ujemna lub dodatnia. W przypadku tej drugiej, policz jej kwadrat oraz sprawdź parzystość
 
 ## Przykład
 ```
@@ -14,22 +14,23 @@ Pobierz liczbę (`prompt`, `parseFloat`) i wyświetl wiadomość czy jest ujemna
 
 <br/>
 
-# Zadanie 2
+# Zadanie
 ## Opis
 
-Zaimplementuj program, który oblicza pole trójkąta. Potrzebne dane pobierz od uytkownika
+Zaimplementuj program, który oblicza pole trójkąta. Potrzebne dane pobierz od użytkownika
 korzystając z `prompt`. Wykorzystaj `parseFloat` by skonwertować `string` na reprezentację zmiennoprzecinkową
 
+## Przykład
 ```
 input: a = 0.5, h =10
 output: Pole trójkąta wynosi 2.5
 ```
 <br/>
 
-# Zadanie 3
+# Zadanie
 ## Opis
 
-Wyświetl w konsoli `tak` / `nie` jeżeli podane liczby spełniają poniszą nierówność
+Wyświetl w konsoli `tak` / `nie` jeżeli podane liczby spełniają poniższą nierówność
 ```
 a < b < c
 ```
@@ -44,7 +45,7 @@ output: nie
 ```
 <br/>
 
-# Zadanie 4
+# Zadanie
 ## Opis
 Zaimplementuj program, który odpowiada na pytanie czy z danych boków `a`, `b`, `c` można zbudować trójkąt
 
@@ -66,7 +67,7 @@ output: tak
 
 <br/>
 
-# Zadanie 5
+# Zadanie
 ## Opis
 Wskaż największą spośród pięciu liczb
 
@@ -87,7 +88,7 @@ output: max = -3
 
 <br/>
 
-# Zadanie 6
+# Zadanie
 ## Opis
 Biorąc pod uwagę wysokość [`m`] i masę [`kg`] danej osoby, określ kategorię, do której należy waga licząc parametr `BMI`
 
@@ -98,7 +99,7 @@ Biorąc pod uwagę wysokość [`m`] i masę [`kg`] danej osoby, określ kategori
 | Potencjalna nadwaga | > 24.9 |
 
 ```javascript
-const BMI = weight / (height ^ 2); // 'height' do kwadratu
+const BMI = weight / (height ** 2); // 'height' do kwadratu
 ```
 
 ## Przykłady
@@ -112,7 +113,7 @@ output: Niedowaga
 
 <br/>
 
-# Zadanie 7
+# Zadanie
 ## Opis
 Wyświetl w rosnącym porządku liczby podane przez użytkownika
 

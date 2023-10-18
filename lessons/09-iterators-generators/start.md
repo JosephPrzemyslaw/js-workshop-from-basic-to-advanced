@@ -89,7 +89,7 @@ Odpowiadająca deklaracja `CSS` mas postać `filter: blur(5px);`
 
 # Zadanie
 ## Opis
-Nadpisz iterator obiektu wbudowangeo `String` tak aby pętla `for of` drukowała literki od końca
+Nadpisz iterator obiektu wbudowanego `String` tak aby pętla `for of` drukowała literki od końca
 
 ## Zachowanie
 ```javascript
@@ -244,7 +244,7 @@ tworzy tablicę:
 
 # Zadanie
 ## Opis
-Zaimplemetuj iterację po `kolejce FIFO` korzystając z iteratorów. Elementy są wyświetlane w odwrotnej kolejności ich wstawienie do tablicy
+Zaimplementuj iterację po `kolejce FIFO` korzystając z iteratorów. Elementy są wyświetlane w odwrotnej kolejności ich wstawienie do tablicy
 
 # Działanie
 ```javascript

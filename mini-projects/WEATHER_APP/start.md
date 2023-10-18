@@ -1,7 +1,7 @@
 # Zadanie
 ## Opis
-Użytkownik w polu teksowym podaje miasto. Aplikacja wyświetla pogodę po wciścnięciu guzika `ENTER`
+Użytkownik w polu tekstowym podaje miasto. Aplikacja wyświetla pogodę po wciśnięciu guzika `ENTER`
 
-Sokrzystaj z serwisu `https://openweathermap.org`
+Skorzystaj z serwisu `https://openweathermap.org`
 
 <img src="./example.png" width="400">

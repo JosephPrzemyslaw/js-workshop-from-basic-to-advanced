@@ -40,13 +40,13 @@ Wydrukuj pięć pierwszych potęg liczb `{1, 2, 3, ..., k}` korzystając z pętl
 ## Wynik
 **dla `k = 5`**
 
-|   |    |     |     |
-| - | -  | -   | -   |
-| 1 | 1  | 1   | 1   |
-| 2 | 4  | 8   | 16  |
-| 3 | 9  | 27  | 81  |
-| 4 | 16 | 64  | 256 |
-| 5 | 25 | 125 | 625 |
+|   |    |     |     |     |
+| - | -  | -   | -   |-    |
+| 1 | 1  | 1   | 1   |1    |
+| 2 | 4  | 8   | 16  |32   |
+| 3 | 9  | 27  | 81  |243  |
+| 4 | 16 | 64  | 256 |1024 |
+| 5 | 25 | 125 | 625 |3125 |
 
 <br>
 
@@ -54,7 +54,7 @@ Wydrukuj pięć pierwszych potęg liczb `{1, 2, 3, ..., k}` korzystając z pętl
 # Zadanie 4
 ## Opis
 
-Wygneruj ponizszy trójkąt liczbowy dla `n` wierszy
+Wygeneruj ponizszy trójkąt liczbowy dla `n` wierszy
 
 przykład dla `n = 7`
 ```
@@ -70,7 +70,7 @@ przykład dla `n = 7`
 # Zadanie 5
 ## Opis
 
-Wygneruj ponizszy trójkąt liczbowy dla `n` wierszy
+Wygeneruj ponizszy trójkąt liczbowy dla `n` wierszy
 
 przykład dla `n = 7`
 ```
