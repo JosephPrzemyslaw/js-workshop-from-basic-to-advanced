@@ -1,5 +1,5 @@
 
-const n = 50;
+const n = 7;
 let line = "";
 
 for (let i = 1; i <= n; i++) {
