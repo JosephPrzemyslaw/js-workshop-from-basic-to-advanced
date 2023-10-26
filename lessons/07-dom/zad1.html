@@ -1,0 +1,23 @@
+<html>
+    <body>
+        <div id='container'>
+            <ul id='fruit-list'>
+                <li id='apple'>Apple</li>
+                <li id='plum'>PLum</li>
+                <li id='grapes'>Grapes</li>
+                <li id='banana'>Banana</li>
+                <li id='watermelon'>Watermelon</li>
+            </ul>
+        </div>
+    </body>
+    <script>
+        const ulEl = document.getElementById('fruit-list');
+        ulEl.style.border = '3px solid black';
+
+        const watermelonEl = ulEl.lastElementChild;
+        watermelonEl.style.color = "blue";
+
+        const appleEl = ulEl.firstElementChild;
+        appleEl.style.color = "blue"
+    </script>
+</html>
