@@ -13,20 +13,37 @@ const carPaths = [
 
 // initialization
 const container = document.querySelector(".slider-container");
-container.style.backgroundImage = `url(./img/${carPaths[carIndex]})`;
+updateBackground();
 
-
-function updateSlider(event) {
-    if (event.key = "ArrowRight") {
-        carIndex ++;
-        container.style.backgroundImage = `url(./img/${carPaths[carIndex]})`;
-    } else {
-        if (event.key = "ArrowLeft") {
-            carIndex --;
-            container.style.backgroundImage = `url(./img/${carPaths[carIndex]})`;
-        }
-    }
+function updateBackground() {
+    container.style.backgroundImage = `url(./img/${carPaths[carIndex]})`;
 }
 
+function handleRight() {
+    carIndex ++;
+    if (carIndex === carPaths.length){
+        carIndex = 0;
+    }
+    updateBackground();
+}
+
+function handleLeft() {
+    carIndex --;
+    if (carIndex === -1){
+        carIndex = carPaths.length - 1;
+    }
+    updateBackground();
+}
+
+function updateSlider(event) {
+    switch(event.key) {
+        case "ArrowRight":
+            handleRight();
+            break;
+        case "ArrowLeft":
+            handleLeft();
+            break;
+    }
+}
 
 document.addEventListener("keydown", updateSlider);
