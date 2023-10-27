@@ -1,0 +1,41 @@
+
+body {
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column; */
+}
+#weather-city {
+    margin-top: 20px;
+}
+.weather-description {
+    font-family: 'Poppins', sans-serif;
+    margin-top: 20px;
+    height: 300px;
+    width: 350px;
+}
+.weather-description-date {
+    font-size: 28px;
+    color: gray;
+    font-weight: bold;
+}
+
+.weather-description-city {
+    font-size: 38px;
+    font-weight: bold;
+}
+
+.weather-description-details {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.weather-description-icon {
+    width: 100px;
+    height: 100px;
+}
+
+.weather-description-temp {
+    font-size: 60px;
+}
