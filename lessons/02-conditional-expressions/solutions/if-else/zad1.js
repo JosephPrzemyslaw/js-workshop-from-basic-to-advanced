@@ -1,13 +1,9 @@
-// Pobierz liczbę (prompt, parseFloat) i wyświetl informację czy jest ujemna lub dodatnia. W przypadku tej drugiej, policz jej kwadrat oraz sprawdź parzystość
 
-// Przykład
-//  input: x = 8
-//  output: Dodatnia, parzysta liczba. Kwadrat wynosi 64
-
-//  input: x = -90
-//  output: Ujemna
-
-const numStr = 123; //prompt("Get a number"); // num is string, e.g. "34.12"
+//
+// temporary commented to demonstrate how does it work using node
+// uncomment prompt if you want to run the code in a browser
+//
+const numStr = 123; //prompt("Get a number"); // num is string when prompt is uncommented, e.g. "34.12"
 const num = parseFloat(numStr); // now => 34.12
 
 // const increasedByTwo1 = numStr + 2; // "34.12" + 2 => "34.12" + "2" => "34.122"
