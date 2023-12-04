@@ -14,8 +14,8 @@
 //     console.error("Enter data in the desired format");
 // }
 
-const a = 12; //parseFloat(prompt("Get a:")); // a is the number data type
-const h = 5 / "sdf"; //parseFloat(prompt("Get h:")); // h is the number data type
+const a = parseFloat(prompt("Get a:")); // a is the number data type
+const h = parseFloat(prompt("Get h:")); // h is the number data type
 
 const isAnyNaN = Number.isNaN(a) || Number.isNaN(h);
 const isAnyNegativeOrZero = a <= 0 || h <= 0;
