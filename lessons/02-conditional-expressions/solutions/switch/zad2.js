@@ -5,7 +5,6 @@ const CHF_RATE = 4.60;
 
 const amount = 123;
 const currency = "CHF";
-let targetAmount, targetAmountFormatted;
 let targetRate; // undefined
 
 switch(currency) {
@@ -21,8 +20,8 @@ switch(currency) {
 }
 
 if (targetRate) { // targetRate = falsy => {null, undefined, 0, ""}
-    targetAmount = amount / targetRate;
-    targetAmountFormatted = targetAmount.toFixed(2);
+    const targetAmount = amount / targetRate;
+    const targetAmountFormatted = targetAmount.toFixed(2);
     console.log(`${targetAmountFormatted} ${currency}`);
 } else {
     console.error("This currency is not supported");
