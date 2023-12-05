@@ -24,10 +24,30 @@
 // 1680
 // gdyz 5 * 6 * 7 * 8 = 1680
 
-const n = 5, k = 4;
-let finalResult = 1;
+// const n = 5, k = 4;
+// let finalResult = 1;
 
-for (let i = n; i < n + k; i = i + 1) { // i++
-    finalResult = finalResult * i;
+// for (let i = n; i < n + k; i = i + 1) { // i++
+//     finalResult = finalResult * i;
+// }
+// console.log(finalResult);
+
+//
+// get data from an user in the right format
+// query the user until it responds correctly
+//
+let num;
+while(true) {
+    const numStr = prompt("Get a number");
+    if (numStr === null) {
+        break;
+    }
+
+    num = parseFloat(numStr);
+    if (Number.isNaN(num)) {
+        console.log("Enter the desired input");
+    } else {
+        break;
+    }
 }
-console.log(finalResult);
+console.log(num)
