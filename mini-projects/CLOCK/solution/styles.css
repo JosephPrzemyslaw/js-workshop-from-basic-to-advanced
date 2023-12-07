@@ -1,0 +1,8 @@
+#clock {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    font-family: "Roboto";
+    font-size: 60px;
+}
