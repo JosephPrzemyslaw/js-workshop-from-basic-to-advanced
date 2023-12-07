@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TextArea Demo</title>
+</head>
+<body>
+    <div id="mail-content">
+        <textarea id="mail-content-textarea"></textarea>
+        <div id="mail-content-counter"></div>
+    </div>
+    <script>
+		const MAX_CHARACTER_NO = 23;
+		const textArea = document.getElementById("mail-content-textarea");
+		const counter = document.getElementById("mail-content-counter");
+		
+		function updateCounter() {
+			counter.textContent = `${textArea.value.length}/${MAX_CHARACTER_NO}`;
+		}
+
+		function handleTextAreaChange() {
+			const curValueTextArea = textArea.value;
+			if (curValueTextArea.length > MAX_CHARACTER_NO) {
+				const newTextAreaValue = curValueTextArea.substring(0, curValueTextArea.length - 1);
+				textArea.value = newTextAreaValue;
+			} else {
+			    updateCounter();
+            }
+		}
+
+		updateCounter();
+		textArea.addEventListener("input", handleTextAreaChange);
+    </script>
+</body>
+</html>
