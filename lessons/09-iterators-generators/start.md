@@ -275,7 +275,7 @@ sth
 Porównaj i wyjaśnij implementacje kodu, który drukuje tekst wspak
 
 ```javascript
-const testStr = "A fast brown fox";
+const testStr = new String("A fast brown fox");
 testStr[Symbol.iterator] = function () {
     let counter = this.length;
     let that = this;
